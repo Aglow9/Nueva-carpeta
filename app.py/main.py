@@ -19,7 +19,7 @@ def index():
 
 @app.route("/random_fact")
 def datos():
-    return f'<h1>Datos Interesantes</h1><p>{random.choice(facts_list)}</p> <a href="/cat">¡gira una monedaa!</a>'
+    return f'<h1>Datos Interesantes</h1><p>{random.choice(facts_list)}</p> <a href="/cat">¡gatitos!!!!!</a>'
 
 @app.route("/cat") #generador de gatitos
 def gatos():
